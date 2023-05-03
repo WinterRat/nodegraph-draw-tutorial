@@ -13,13 +13,13 @@ You will also need to install the following libraries:
 - matplotlib
 
 To install these libraries, you can use the following command:
-```
+```cmd
 pip install tkinter networkx matplotlib
 ```
 
 ## Usage
 
-To run the application, simply run the input.py file using Python:
+To run the application, simply run the main.py file using Python:
 ```
 python main.py
 ```
@@ -30,7 +30,8 @@ This will open a window where you can enter the graph data.
 ## Example
 
 1. Write Graph data > each line mean (start_node, end_node, distance)
->5 7 9
+```
+5 7 9
 3 7 4
 3 6 6
 2 5 8
@@ -50,6 +51,7 @@ This will open a window where you can enter the graph data.
 6 2 7
 4 2 8
 6 1 10
+```
 <img src="https://user-images.githubusercontent.com/126951066/235958963-01cfbf08-5cc3-40e2-92f4-3be790dcb01b.PNG" width="200" height="400">
 
 
